@@ -8,12 +8,14 @@ function App() {
    const [fetchError, setFetchError] = useState(false)
 
    async function buscarPerfil() {
+      setFetchError(false)
 
       const res = await fetch(`https://api.github.com/users/${inputValue}`)
 
       if (!res.ok) {
          setFetchError(true)
-         throw new Error('Usuário não encontrado')
+         setUserFetched(false)
+         return
       }
 
       const data = await res.json()

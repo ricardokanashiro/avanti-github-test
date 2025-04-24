@@ -10,7 +10,7 @@ function App() {
    const [userData, setUserData] = useState({ name: '', bio: '', profile: '' })
    const [userFetched, setUserFetched] = useState(false)
    const [fetchError, setFetchError] = useState(false)
-   const [isLoading, setIsLoading] = useState(false)
+   const [isLoading, setIsLoading] = useState(true)
 
    async function buscarPerfil() {
 
@@ -23,8 +23,8 @@ function App() {
       const res = await fetch(`https://api.github.com/users/${inputValue}`)
 
       if (!res.ok) {
+
          setFetchError(true)
-         setIsLoading(false)
 
          if(res.status === 403) {
 
@@ -33,11 +33,13 @@ function App() {
             if(errorBody.message.includes('API rate limit exceeded')) {
 
                notify('error', `A API pública do Github atingiu o total de requisições por hora!`)
+               setIsLoading(false)
                return
             }
          }
 
          notify('error', `Usuário ${inputValue} não encontrado!`)
+         setIsLoading(false)
          return
       }
 

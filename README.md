@@ -1,12 +1,59 @@
-# React + Vite
+# Projeto Github Finder - Teste Técnico Avanti
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Seja bem vindo recrutador, espero que goste :)</p>
+Esse projeto se baseia em um site de busca de usuários do Github proposto pela Avanti como segundo projeto do teste técnico de seu processo seletivo.
 
-Currently, two official plugins are available:
+<img src="./public/banner-avanti.png">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre o projeto:
 
-## Expanding the ESLint configuration
+<img src="./public/showcase.png">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O teste consistia em desenvolver um layout do Figma pré-fornecido e implementar a funcionalidade de busca de usuários, trazendo nome, bio e foto de perfil, através da API do Github.
+
+## Sobre o processo:
+
+No desenvolvimento desse teste, priorizei a implementação de uma estrutura mais objetiva, usando CSS para estilização geral e hooks para gerenciamento de estados das respostas da API para melhor feedback ao usuário.
+
+<img src="https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=E34F26" /> &nbsp;
+<img src="https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=1572B6" /> &nbsp;
+<img src="https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> &nbsp;
+<img src="https://img.shields.io/badge/API-000?style=for-the-badge&logo=github&logoColor=FFF" /> &nbsp;
+
+- <b>HTML5</b>: linguagem de marcação de hypertexto utilizada para construir o conteúdo da página.
+- <b>CSS3</b>: linguagem de estilização utilizado para estilizar os componentes da página.
+- <b>Javascript</b>: linguagem de programação de scripts, utilizado para trazer dinamismo e funções para a página.
+- <b>API pública do Github</b>: API para obter informações dos perfis de usuários através de requisições HTTP.
+
+## Meus diferenciais:
+
+- <b>Loading com Skeleton</b>: uso de skeletons no carregamento de dados da API para melhor experiência e feedback ao usuário.
+- <b>Alertas Toasts</b>: adição de toasts (mensagens de alerta customizadas) ao buscar usuários ou exibir erros para melhor experiência e feedback ao usuário também.
+- <b>Fidelidade ao Figma</b>: design fiel ao Figma, seguindo da melhor forma possível as proporções fornecidas.
+- <b>Responsividade completa</b>: implementação de responsividade na página para adaptação em diversos dispositivos e tamanhos de tela.
+
+## Como rodar o projeto?
+
+Para rodar o projeto, siga as instruções abaixo ou <a href="">clique aqui</a> e acesse o live preview na Vercel.
+
+```shell
+   # clone o projeto do Github:
+   git clone https://github.com/ricardokanashiro/avanti-github-test.git
+```
+```shell
+   # acesse o diretório do projeto:
+   cd avanti-github-test
+```
+```shell
+   # Instale as dependências do projeto com NPM:
+   npm install
+   # ou
+   yarn install
+```
+
+```shell
+   # Inicie o servidor do projeto e abra na localhost indicada
+   npm run dev
+   # ou
+   yarn dev
+```

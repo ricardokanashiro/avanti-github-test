@@ -34,7 +34,7 @@ No desenvolvimento desse teste, priorizei a implementação de uma estrutura mai
 
 ## Como rodar o projeto?
 
-Para rodar o projeto, siga as instruções abaixo ou <a href="">clique aqui</a> e acesse o live preview na Vercel.
+Para rodar o projeto, siga as instruções abaixo ou <a href="avanti-github-test.vercel.app">clique aqui</a> e acesse o live preview na Vercel.
 
 ```shell
    # clone o projeto do Github:
@@ -57,3 +57,11 @@ Para rodar o projeto, siga as instruções abaixo ou <a href="">clique aqui</a> 
    # ou
    yarn dev
 ```
+
+## Porque me contratar?
+
+- Também sou designer, tendo capacidade de planejar e criar interfaces do zero por meio do Figma.
+- Desenvolvedor fiel, que codifica seguindo totalmente os layouts passados do Figma, adaptando com as melhores proporções possíveis.
+- Facilidade e sede por aprender novas tecnologias e ferramentas, não me limitando por rótulos.
+- Em busca de um ambiente para demonstrar e desenvolver todo meu talento.
+- Grande identificação com a cultura da empresa e seus propósitos, também querendo me tornar um criador de conteúdo na área tech.

@@ -15,11 +15,13 @@ O teste consistia em desenvolver um layout do Figma pré-fornecido e implementar
 
 No desenvolvimento desse teste, priorizei a implementação de uma estrutura mais objetiva, usando CSS para estilização geral e hooks para gerenciamento de estados das respostas da API para melhor feedback ao usuário.
 
+<img src="https://img.shields.io/badge/React-000?style=for-the-badge&logo=react&logoColor=01d0f7" /> &nbsp;
 <img src="https://img.shields.io/badge/HTML-000?style=for-the-badge&logo=html5&logoColor=E34F26" /> &nbsp;
 <img src="https://img.shields.io/badge/CSS-000?style=for-the-badge&logo=css3&logoColor=1572B6" /> &nbsp;
 <img src="https://img.shields.io/badge/JavaScript-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> &nbsp;
 <img src="https://img.shields.io/badge/API-000?style=for-the-badge&logo=github&logoColor=FFF" /> &nbsp;
 
+- <b>React</b>: biblioteca de componentes utilizada para desenvolvimento de websites.
 - <b>HTML5</b>: linguagem de marcação de hypertexto utilizada para construir o conteúdo da página.
 - <b>CSS3</b>: linguagem de estilização utilizada para estilizar os componentes da página.
 - <b>Javascript</b>: linguagem de programação de scripts, utilizada para trazer dinamismo e funções para a página.

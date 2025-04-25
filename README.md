@@ -21,8 +21,8 @@ No desenvolvimento desse teste, priorizei a implementação de uma estrutura mai
 <img src="https://img.shields.io/badge/API-000?style=for-the-badge&logo=github&logoColor=FFF" /> &nbsp;
 
 - <b>HTML5</b>: linguagem de marcação de hypertexto utilizada para construir o conteúdo da página.
-- <b>CSS3</b>: linguagem de estilização utilizado para estilizar os componentes da página.
-- <b>Javascript</b>: linguagem de programação de scripts, utilizado para trazer dinamismo e funções para a página.
+- <b>CSS3</b>: linguagem de estilização utilizada para estilizar os componentes da página.
+- <b>Javascript</b>: linguagem de programação de scripts, utilizada para trazer dinamismo e funções para a página.
 - <b>API pública do Github</b>: API para obter informações dos perfis de usuários através de requisições HTTP.
 
 ## Meus diferenciais:
@@ -34,7 +34,7 @@ No desenvolvimento desse teste, priorizei a implementação de uma estrutura mai
 
 ## Como rodar o projeto?
 
-Para rodar o projeto, siga as instruções abaixo ou <a href="avanti-github-test.vercel.app">clique aqui</a> e acesse o live preview na Vercel.
+Para rodar o projeto, siga as instruções abaixo ou <a href="https://avanti-github-test.vercel.app/">clique aqui</a> e acesse o live preview na Vercel.
 
 ```shell
    # clone o projeto do Github:
